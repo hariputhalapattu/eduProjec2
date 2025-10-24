@@ -1,8 +1,9 @@
 version: '3.8'
 services:
-  php-app:
+  php-apache:
     build: .
     ports:
-      - "8081:8000"
+      - "8081:8080"
+    volumes:
+      - ./website:/var/www/html
     container_name: php_webapp
-    restart: always
