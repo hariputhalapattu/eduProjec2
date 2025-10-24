@@ -6,4 +6,4 @@ services:
       - "8081:8080"
     volumes:
       - ./website:/var/www/html
-    container_name: php_webapp
+    container_name: project_php2
