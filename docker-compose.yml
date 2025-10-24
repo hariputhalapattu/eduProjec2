@@ -3,6 +3,6 @@ services:
   php-app:
     build: .
     ports:
-      - "80:80"
+      - "8081:8000"
     container_name: php_webapp
     restart: always
